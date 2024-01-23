@@ -4,6 +4,8 @@ import info from "./data";
 import { plus_jakarta } from "./fonts";
 import CircularProgression from "../components/circle";
 import { useRouter } from "next/navigation";
+import circleCheck from "../utils/circle_check.svg";
+import Image from "next/image";
 
 const Home = () => {
   const router = useRouter();
@@ -38,7 +40,12 @@ const Home = () => {
             key={step.id}
           >
             <div className="w-5">
-              <CircularProgression value={value} sm={true} />
+              {value < 100 && <CircularProgression value={value} sm={true} />}
+              {value === 100 && (
+                <span>
+                  <Image src={circleCheck} alt="checked" />
+                </span>
+              )}
             </div>
             <h3 className={plus_jakarta.className}>{step.title}</h3>
           </div>
