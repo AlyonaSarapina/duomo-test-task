@@ -10,7 +10,7 @@ const ProgressPage = () => {
   const line = ["1", "2", "3", "4", "5", "6"];
 
   return (
-    <div className="flex flex-col align-middle w-full gap-6 justify-between h-[65vh]">
+    <div className="flex flex-col align-middle w-full gap-6 justify-between h-[60vh]">
       <div className="flex flex-col gap-14">
         <h2 className="font-semibold text-center text-wrap self-center">
           See your Spiritual Growth <br /> progress by Sep 17, 2024

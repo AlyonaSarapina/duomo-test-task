@@ -59,7 +59,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 h-[65vh] align-middle">
+    <div className="flex flex-col gap-4 h-[60vh] align-middle">
       <h2 className="font-semibold text-center text-wrap self-center">
         Enter your email <br /> to get your personalised <br /> Spiritual Growth
         Plan
