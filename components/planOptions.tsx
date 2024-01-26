@@ -90,7 +90,7 @@ const PlanOptions = () => {
           you cancel the subscription. Payments will be charged from the card
           you specified here. You can cancel your subscription by contacting our
           customer support team via email at support@awesomeapp.com Subscription
-          Policy. The charge will appear on your bill as "awesomeapp"
+          Policy. The charge will appear on your bill as &quot;awesomeapp&quot;
         </p>
       </div>
     </div>
