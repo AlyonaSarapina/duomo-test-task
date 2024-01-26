@@ -66,7 +66,7 @@ const Form = () => {
       </h2>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col align-middle min-w-[342px] justify-between h-[70vh] gap-10"
+        className="flex flex-col align-middle min-w-[342px] justify-between h-[65vh] gap-10"
       >
         <div className="min-w-[342px] mx-auto">
           <input
