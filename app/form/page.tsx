@@ -83,7 +83,7 @@ const Form = () => {
         </div>
         <button
           type="submit"
-          className="border self-center min-w-[342px] py-4 rounded-lg bg-[#0062F5] hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s"
+          className="border self-center min-w-[342px] py-4 rounded-lg font-semibold bg-[#0062F5] hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s"
         >
           <p className={plus_jakarta.className}>Continue</p>
         </button>

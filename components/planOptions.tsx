@@ -73,7 +73,7 @@ const PlanOptions = () => {
         </RadioGroup>
         <Link
           href="https://awesomeapp.com/subscription"
-          className={`${plus_jakarta.className} border self-center min-w-[342px] py-4 rounded-lg bg-[#0062F5] hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s mt-10`}
+          className={`${plus_jakarta.className} border self-center min-w-[342px] py-4 rounded-lg bg-[#0062F5] font-semibold hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s mt-10`}
         >
           <p className="text-center">Get my plan</p>
         </Link>
