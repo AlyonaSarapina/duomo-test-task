@@ -37,7 +37,7 @@ const ProgressPage = () => {
         </div>
       </div>
       <button
-        className="border self-center min-w-[342px] py-4 rounded-md bg-[#0062F5] hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s mt-10"
+        className="border self-center min-w-[342px] py-4 rounded-lg bg-[#0062F5] hover:border-gray-300 hover:bg-white hover:text-gray-400 text-white  transition .5s mt-10"
         onClick={() => router.push("/subscription")}
       >
         <p className={plus_jakarta.className}>Continue</p>

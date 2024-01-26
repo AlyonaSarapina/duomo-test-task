@@ -16,6 +16,7 @@
     "@mui/material": "^5.15.6",
     "@mui/styled-engine-sc": "^6.0.0-alpha.13",
     "@nextui-org/react": "^2.2.9",
+    "classnames": "^2.5.1",
     "email-validator": "^2.0.4",
     "next": "14.1.0",
     "react": "^18",
