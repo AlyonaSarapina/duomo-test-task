@@ -23,7 +23,7 @@ const PlanOptions = () => {
 
   return (
     <div className="flex flex-col align-middle gap-6 justify-between">
-      <FormControl className="flex flex-col min-w-[342px] mx-auto">
+      <FormControl className="flex flex-col max-w-[342px] mx-auto">
         <div
           className={`${lora.className} text-center font-semibold text-black text-2xl`}
         >
