@@ -2,7 +2,7 @@
 
 ## Build Docker Image
 
-`docker build -f Dockerfile.dev -t duomo-test-task .`
+`docker build -f Dockerfile -t duomo-test-task .`
 
 ## Run the app
 
